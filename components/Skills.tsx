@@ -10,7 +10,11 @@ export default function Skills({ }: Props) {
         Skills
       </h3>
 
-      <SkillsScrolling />
+      {/* Add margin-top for spacing */}
+      <div className="mt-40 w-full">
+        <SkillsScrolling />
+      </div>
     </motion.div>
+
   );
 }

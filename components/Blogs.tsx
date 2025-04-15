@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 type Props = {};
 
-export default function Blogs({}: Props) {
+export default function Blogs({ }: Props) {
   const [posts, setPosts] = useState([]);
 
   const query = `query {
