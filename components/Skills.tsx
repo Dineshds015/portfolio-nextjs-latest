@@ -5,16 +5,16 @@ type Props = {};
 
 export default function Skills({ }: Props) {
   return (
-    <motion.div className="flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center items-center xl:space-y-0 mx-auto">
-      <h3 className="absolute top-32 uppercase tracking-[20px] text-gray-400 text-2xl z-10">
+    <motion.div className="flex flex-col text-center md:text-left xl:flex-col max-w-[2000px] xl:px-10 min-h-screen justify-start items-center mx-auto py-24 space-y-12">
+      {/* Heading */}
+      <h3 className="uppercase tracking-[15px] text-gray-400 text-2xl">
         Skills
       </h3>
 
-      {/* Add margin-top for spacing */}
-      <div className="mt-40 w-full">
+      {/* Skills Scrolling */}
+      <div className="w-full">
         <SkillsScrolling />
       </div>
     </motion.div>
-
   );
 }
