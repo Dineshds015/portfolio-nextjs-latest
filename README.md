@@ -1,4 +1,4 @@
-# Portfolio - Nikhil Kadam
+# Portfolio - Dinesh Suthar
 
 This is a portfolio website built with Next.js, Tailwind CSS, and Framer Motion.
 
@@ -13,7 +13,7 @@ This is a portfolio website built with Next.js, Tailwind CSS, and Framer Motion.
 1. Clone this repository to your local machine by running the following command in your terminal:
 
    ```bash
-   git clone https://github.com/Nick-h4ck3r/portfolio-nextjs-latest.git
+   git clone https://github.com/Dineshds015/portfolio-nextjs-latest.git
    ```
 
 2. Change into the project directory:
@@ -64,6 +64,10 @@ Have fun!
 
 ![About section](/public/screenshots/portfolio/aboutDemo.png)
 
+**Education section:**
+
+![Education section](/public/screenshots/portfolio/educationDemo.png)
+
 **Experience section:**
 
 ![Experience section](/public/screenshots/portfolio/experienceDemo.png)
@@ -76,14 +80,14 @@ Have fun!
 
 ![Project section](/public/screenshots/portfolio/projectsDemo.png)
 
-**Blogs section:**
-![Blogs section](/public/screenshots/portfolio/blogsDemo.png)
+**Extra Curricular section:**
+![Extra Curricular section](/public/screenshots/portfolio/extraDemo.png)
 
 **Contact section:**
 
 ![Contact section](/public/screenshots/portfolio/contactDemo.png)
 
-**Live:** [Portfolio - Nikhil kadam](https://nikhilkadam.vercel.app/)
+**Live:** [Portfolio - Dinesh Suthar](https://dineshds015.vercel.app/)
 
 ## Credits
 
