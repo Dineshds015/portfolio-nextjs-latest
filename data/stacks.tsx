@@ -23,7 +23,6 @@ import {
   SiJquery,
 } from "@icons-pack/react-simple-icons";
 import Image from "next/image";
-import { FaJava } from "react-icons/fa";
 export type stacksProps = {
   [key: string]: JSX.Element;
 };
@@ -103,6 +102,14 @@ export const STACKS: stacksProps = {
       />
     </div>
   ),
-  "Java": <FaJava width={iconSize} height={iconSize} />
-
+  "Java": (
+    <div className="flex items-center">
+      <Image
+        src="/skillsLogos/java.png"
+        alt="java"
+        width={iconSize}
+        height={iconSize}
+      />
+    </div>
+  ),
 };
