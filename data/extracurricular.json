@@ -1,0 +1,22 @@
+{
+  "experience": [
+    {
+      "clogo": "/companyLogo/iitd.png",
+      "title": "Campus Ambassador",
+      "company": "MNNIT - IIT Delhi",
+      "point1": "Actively promoted PARIVARTAN, an initiative by IIT Delhi, contributing to increased student engagement and participation through effective outreach and communication strategies.",
+      "point2": "",
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "clogo": "/companyLogo/iitp.jpg",
+      "title": "Representative",
+      "company": "MNNIT - IIT Palakkad",
+      "point1": "Selected as one of the top 40 delegates from MNNIT to represent Uttar Pradesh in Kerala under the Government of India’s YUVA SANGAM initiative, in collaboration with IIT Palakkad. The program aims to promote cultural exchange and national integration among youth",
+      "point2": "YUVA SANGAM: the program managed by Govt. of India",
+      "startDate": "",
+      "endDate": ""
+    }
+  ]
+}

@@ -37,9 +37,8 @@ export default function Projects({ data }: Props) {
       <div className="absolute flex justify-between w-full z-40 pl-4 pr-2 md:max-w-2xl mt-16 md:mt-10 dark:text-white text-gray-800">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className={`icon icon-tabler icon-tabler-square-rounded-chevron-left-filled h-8 w-8 md:w-14 md:h-14 cursor-pointer ${
-            indexAt == 0 ? "opacity-20 cursor-not-allowed" : "opacity-100"
-          } `}
+          className={`icon icon-tabler icon-tabler-square-rounded-chevron-left-filled h-8 w-8 md:w-14 md:h-14 cursor-pointer ${indexAt == 0 ? "opacity-20 cursor-not-allowed" : "opacity-100"
+            } `}
           width="24"
           height="24"
           viewBox="0 0 24 24"
@@ -64,9 +63,8 @@ export default function Projects({ data }: Props) {
 
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className={`icon icon-tabler icon-tabler-square-rounded-chevron-right-filled h-8 w-8 md:w-14 md:h-14 cursor-pointer ${
-            indexAt == 8 ? "opacity-20 cursor-not-allowed" : "opacity-100"
-          }`}
+          className={`icon icon-tabler icon-tabler-square-rounded-chevron-right-filled h-8 w-8 md:w-14 md:h-14 cursor-pointer ${indexAt == 8 ? "opacity-20 cursor-not-allowed" : "opacity-100"
+            }`}
           width="24"
           height="24"
           viewBox="0 0 24 24"

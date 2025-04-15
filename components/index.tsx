@@ -4,7 +4,9 @@ import Blogs from "./Blogs";
 import Contact from "./Contact";
 import DarkModeToggle from "./DarkModeToggle";
 import Experience from "./Experience";
+import Education from "./Education";
 import ExperienceCard from "./ExperienceCard";
+import EducationCard from "./EducationCard";
 import Header from "./Header";
 import Hero from "./Hero";
 import Projects from "./Projects";
@@ -20,6 +22,8 @@ export {
   DarkModeToggle,
   Experience,
   ExperienceCard,
+  Education,
+  EducationCard,
   Header,
   Hero,
   Projects,

@@ -7,7 +7,9 @@ import {
   Projects,
   Blogs,
   Contact,
+  Education,
 } from "@/components";
+import ExtraCurricular from "@/components/ExtraCurricular";
 
 export default function Home({ data }: any) {
   return (
@@ -32,6 +34,13 @@ export default function Home({ data }: any) {
       </section>
 
       <section
+        id="education"
+        className="snap-center"
+      >
+        <Education />
+      </section>
+
+      <section
         id="experience"
         className="snap-center"
       >
@@ -53,11 +62,18 @@ export default function Home({ data }: any) {
       </section>
 
       <section
+        id="extracurricular"
+        className="snap-center"
+      >
+        <ExtraCurricular />
+      </section>
+
+      {/* <section
         id="blogs"
         className="snap-center"
       >
         <Blogs />
-      </section>
+      </section> */}
 
       <section
         id="contact"

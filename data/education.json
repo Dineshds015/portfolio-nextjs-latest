@@ -1,0 +1,22 @@
+{
+  "experience": [
+    {
+      "clogo": "/companyLogo/mnnit_logo.png",
+      "title": "NIT Allahabad (MNNIT)",
+      "company": "Master of Computer Applications",
+      "point1": "Contributed to the development of UI and components using MERN stack for Mini Project.",
+      "point2": "Implemented interactive features using React and harnessed the capabilities of Development to optimize data display and enhance user engagement.",
+      "startDate": "August, 2022",
+      "endDate": "May, 2025"
+    },
+    {
+      "clogo": "/companyLogo/VNSGU_logo.png",
+      "title": "Veer Narmad South Gujarat University (VNSGU)",
+      "company": "Bachelor of Science (Computer Science)",
+      "point1": "Contributed to the development of UI and components using MERN stack for Mini Project.",
+      "point2": "Implemented interactive features using React and harnessed the capabilities of Development to optimize data display and enhance user engagement.",
+      "startDate": "July, 2018",
+      "endDate": "August, 2021"
+    }
+  ]
+}

@@ -6,7 +6,7 @@ import profilePic from "public/extraImages/profilePic.jpeg";
 
 type Props = {};
 
-export default function About({}: Props) {
+export default function About({ }: Props) {
   return (
     <motion.div
       initial={{
@@ -32,7 +32,7 @@ export default function About({}: Props) {
         height={450}
         src={profilePic}
         className="-mb-28 md:mb-0 md:ml-16 flex-shrink-0 w-40 h-40 rounded-xl object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[350px] xl:h-[450px]"
-        alt="nikhil kadam profile image"
+        alt="Dinesh Suthar profile image"
         priority={false}
         placeholder="blur"
       />
@@ -71,53 +71,10 @@ export default function About({}: Props) {
 
         <p className="text-sm md:text-base lg:text-lg font-light md:px-7 pt-3 font-outfit">
           Welcome to my digital abode! <br />
-          <br /> I am a{" "}
-          <span className="text-blue-500 font-semibold">
-            full stack developer
-          </span>{" "}
-          with a passion for building scalable and user-friendly web
-          applications. I love to create elegant solutions to complex problems.
           <br />
-          <br />I am also the founder of{" "}
-          <span className="text-blue-500 font-semibold">
-            <a
-              href="https://instagram.com/localhostcoders"
-              target={"_blank"}
-              rel="noreferrer"
-            >
-              localhostcoders
-              <span className="inline-flex text-black dark:text-white">
-                <svg
-                  className="with-icon_icon__MHUeb"
-                  data-testid="geist-icon"
-                  fill="none"
-                  height="24"
-                  shapeRendering="geometricPrecision"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="1.5"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  style={{
-                    color: "currentColor",
-                    width: "14px",
-                    height: "14px",
-                  }}
-                >
-                  <path d="M7 17L17 7"></path>
-                  <path d="M7 7h10v10"></path>
-                </svg>
-              </span>
-            </a>
-          </span>
-          , a community dedicated to empowering aspiring developers.
-          <br /> <br /> Alongside my tech endeavors, I am an avid reader and
-          enjoy delving into subjects such as psychology and philosophy while
-          enjoying a{" "}
-          <span className="text-blue-500 font-semibold">
-            fresh cup of coffee!
-          </span>
+          I am a passionate <span className="text-blue-500 font-semibold">full-stack developer</span> with hands-on experience in building scalable web applications and a solid understanding of data structures and algorithms. <br /><br />
+          I am also the founder of a vibrant tech community that supports aspiring developers through mentorship, resources, and collaborative learning. <br /><br />
+          Outside of coding, I enjoy exploring new places, exploring how the mind works.
         </p>
       </div>
     </motion.div>

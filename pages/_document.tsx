@@ -2,18 +2,18 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export const metadata = {
   charset: "utf-8",
-  title: "Nikhil Kadam - Portfolio",
+  title: "Dinesh Suthar - Portfolio",
   description:
-    "A website about Nikhil Kadam, full stack developer, open source enthusiast, and tech creator.",
+    "A website about Dinesh Suthar, full stack developer, open source enthusiast, and tech creator.",
   keywords:
-    "Nikhil Kadam, Full Stack Developer, Open Source, Tech Creator, Nashik, Maharashtra, India",
-  author: "Nikhil Kadam",
+    "Dinesh Suthar, Full Stack Developer, Open Source, Tech Creator, Surat, Gujarat, India",
+  author: "Dinesh Suthar",
   openGraph: {
     url: "https://raw.githubusercontent.com/Nick-h4ck3r/portfolio-nextjs-latest/master/public/screenshots/portfolio/heroDemo.png",
-    title: "Nikhil Kadam - Portfolio",
+    title: "Dinesh Suthar - Portfolio",
     description:
-      "A website about Nikhil Kadam, full stack developer, open source enthusiast, and tech creator.",
-    siteName: "Nikhil Kadam - Portfolio",
+      "A website about Dinesh Suthar, full stack developer, open source enthusiast, and tech creator.",
+    siteName: "Dinesh Suthar",
     images: [
       {
         url: "https://raw.githubusercontent.com/Nick-h4ck3r/portfolio-nextjs-latest/master/public/screenshots/portfolio/heroDemo.png",
@@ -26,9 +26,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nikhil Kadam - Portfolio",
+    title: "Dinesh Suthar - Portfolio",
     description:
-      "A website about Nikhil Kadam, full stack developer, open source enthusiast, and tech creator.",
+      "A website about Dinesh Suthar, full stack developer, open source enthusiast, and tech creator.",
     images: [
       {
         url: "https://raw.githubusercontent.com/Nick-h4ck3r/portfolio-nextjs-latest/master/public/screenshots/portfolio/heroDemo.png",

@@ -8,10 +8,10 @@ import heroImg from "public/extraImages/heroImage2.jpg"
 
 type Props = {};
 
-export default function Hero({}: Props) {
+export default function Hero({ }: Props) {
   const [text, count] = useTypewriter({
     words: [
-      "Hey, Nikhil Kadam here.",
+      "Hey, Dinesh Suthar here.",
       "I build things for the web.",
       "I create content for community.",
       "I learn new things everyday.",
@@ -29,7 +29,7 @@ export default function Hero({}: Props) {
         height={100}
         className="relative h-32 w-32 rounded-full mx-auto object-cover"
         src={heroImg}
-        alt="nikhil kadam profile image"
+        alt="Dinesh Suthar profile image"
         priority={true}
         loading="eager"
       />
@@ -65,9 +65,9 @@ export default function Hero({}: Props) {
           <Link href={"#projects"}>
             <button className="heroButton">projects</button>
           </Link>
-          <Link href={"#blogs"}>
+          {/* <Link href={"#blogs"}>
             <button className="heroButton">blogs</button>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>
