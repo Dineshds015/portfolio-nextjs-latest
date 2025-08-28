@@ -21,6 +21,8 @@ import {
   SiMysql,
   SiMongodb,
   SiJquery,
+  SiNestjs,
+  SiRazorpay,
 } from "@icons-pack/react-simple-icons";
 import Image from "next/image";
 export type stacksProps = {
@@ -32,7 +34,10 @@ const iconSize = 24;
 export const STACKS: stacksProps = {
   JavaScript: <SiJavascript size={iconSize} color="default" />,
   TypeScript: <SiTypescript size={iconSize} color="default" />,
+  "Nest.js":   <SiNestjs size={iconSize} color="default" />,
+  "Node.js": <SiNodedotjs size={iconSize} color="default" />,
   "Next.js": <SiNextdotjs size={iconSize} color="default" />,
+  "Razorpay":   <SiRazorpay size={iconSize} color="default" />,
   "React.js": <SiReact size={iconSize} color="default" />,
   TailwindCSS: <SiTailwindcss size={iconSize} color="default" />,
   MongoDB: <SiMongodb size={iconSize} color="default" />,
@@ -40,7 +45,6 @@ export const STACKS: stacksProps = {
   "C++": <SiCplusplus size={iconSize} color="default" />,
   MySQL: <SiMysql size={iconSize} color="default" />,
   Prisma: <SiPrisma size={iconSize} color="default" />,
-  "Node.js": <SiNodedotjs size={iconSize} color="default" />,
   Redux: <SiRedux size={iconSize} color="default" />,
   Postman: <SiPostman size={iconSize} color="default" />,
   HTML5: <SiHtml5 size={iconSize} color="default" />,

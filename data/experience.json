@@ -1,6 +1,24 @@
 {
   "experience": [
     {
+      "clogo": "/companyLogo/antinoLogo.png",
+      "title": "Backend developer",
+      "company": "at, Antino Labs",
+      "point1": "Developed an LLM-powered application delivering context-aware answers from uploaded documents with references.",
+      "point2": "Built a Kundali generation platform integrating Razorpay subscriptions, MSG91 SMS notifications, and PostgreSQL-backed APIs using NestJS & Express.js.",
+      "startDate": "June, 2025",
+      "endDate": "Present"
+    },
+    {
+      "clogo": "/companyLogo/DjangoSoftwares.png",
+      "title": "Full Stack developer",
+      "company": "at, Django Softwares",
+      "point1": "Contributed as a full-stack developer, delivering scalable, user-focused applications with Node.js and React.js.",
+      "point2": "Implemented real-time communication using Redux Toolkit & WebSocket for optimized state management.",
+      "startDate": "April, 2023",
+      "endDate": "June, 2023"
+    },
+    {
       "clogo": "/companyLogo/zeza-logo.png",
       "title": "Full Stack developer",
       "company": "at, NIT Allahabad",
